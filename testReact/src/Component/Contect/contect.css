@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+}
+
+
+.form-wrapper{
+
+    display: flex;
+    border: 2px solid black;
+    width: 500px ;
+    margin-left: 360px;
+    margin-top: 70px;
+    text-align: center;
+    gap: 20px;
+    height: 500px;
+    flex-wrap:wrap ;
+   /* background-image:url("/public/abstract-green-waves-background-dynamic-shapes-composition-vector-illustration_1142-13285.avif") ; */
+}
+.form-wrapper>input{
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 90px;
+ 
+
+}
+.input.placeholder{
+ text-align: center;   
+}
+.button{
+    color: aliceblue;
+    background-color: rgba(58, 57, 57, 0.87);
+    height: 50px;
+   
+}.form{
+
+    overflow-y: hidden;background-size: cover !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    background-image: url("/public/banner.jpg");
+}
+.input.placeholder{
+    text-align: center;
+    margin-left: 20px;
+}
